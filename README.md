@@ -28,8 +28,12 @@ During the analysis process, various terms have been defined to ensure consisten
 
 | Cột 1 | Cột 2 |
 |-------|-------|
-| Nội dung 1 | Nội dung 2 |
-| Thêm thông tin | Tiếp tục nội dung |
+| n_tickets | ... |
+| n_customers | ... |
+| n_tickets_success | ... |
+| n_customers | ... |
+| n_tickets | ... |
+| n_customers | ... |
 
 ## 3. Executive Summary
 
@@ -96,9 +100,167 @@ Based on purchase data, buying behavior between male and female customers appear
     </td>
     <td width="50%">
       <div align="center">
-        ![decrease 13%](https://github.com/user-attachments/assets/d258ca1a-266b-4cf7-b3dd-186c3af7ca50)
+        ![decrease 13% (2)](https://github.com/user-attachments/assets/8bfb8447-8b6f-4f15-91cf-a9f8a120111e)
         **Figure 2:** Analysis of Target Customer Demographics
       </div>
     </td>
   </tr>
 </table>
+
+#### 4.1.2. Behavior
+
+<table>
+  <tr>
+    <td width="30%">
+      
+Customers watch movies throughout the week, but the most preferred time is on weekends. On weekdays (Monday to Friday), they usually go to the cinema after work to unwind with the latest films. On weekends (Saturday and Sunday), they have more flexible schedules. They might watch movies around noon before engaging in other leisure activities or choose a late-night screening as their final entertainment of the day.
+    </td>
+    <td width="70%">
+      <div align="center">
+        ![decrease 13% (4)](https://github.com/user-attachments/assets/3ca3d98e-fbce-4740-91e5-9f1e4f90fdfc)
+        **Figure 3:** Analysis of Target Customer Behaviors
+      </div>
+    </td>
+  </tr>
+</table>
+
+### 4.2. Factors Affecting the Customer Journey
+
+#### 4.2.1. Ticket Booking Platform
+
+<table>
+  <tr>
+    <td width="35%">
+      
+Along with mobile's dominance, iOS devices are the most commonly used for ticket booking. Over time, this trend has become more evident as the share of Android and other devices continues to decline. However, a system issue has emerged, with 45% of bookings failing to identify the device used - a problem that only appeared in 2022 but now accounts for nearly half of the total bookings over four years. Identifying the most-used devices will help the company allocate resources effectively when implementing product development strategies to enhance the booking experience.
+    </td>
+    <td width="75%">
+      <div align="center">
+        ![decrease 13%](https://github.com/user-attachments/assets/c65b7c88-c2fb-433e-bc39-677eb4208d26)
+        **Figure 4:** Analysis of Ticket Booking Platform
+      </div>
+    </td>
+  </tr>
+</table>
+
+#### 4.2.2. Booking Device
+
+Along with mobile's dominance, iOS devices are the most commonly used for ticket booking. Over time, this trend has become more evident as the share of Android and other devices continues to decline. However, a system issue has emerged, with 45% of bookings failing to identify the device used—a problem that only appeared in 2022 but now accounts for nearly half of the total bookings over four years. Identifying the most-used devices will help the company allocate resources effectively when implementing product development strategies to enhance the booking experience.
+<div align="center">
+
+  ![decrease 13% (1)](https://github.com/user-attachments/assets/ce9b7dd0-ba30-4559-bb76-fdae1d4b6a6a)
+
+  **Figure 5:** Analysis of Booking Device
+  
+</div>
+
+#### 4.2.3. Movie Selection Factor
+
+Customers do not exhibit strong preferences for specific movie genres but tend to follow trends. At different times, theaters attract large audiences with blockbuster films such as Avengers: Endgame, Avatar: The Way of Water, Face-off: 48h, and Extremely Easy Job. Both Hollywood and Vietnamese films are well-received upon release. Therefore, prioritizing trend-driven, highly anticipated, and widely publicized movies will maximize audience turnout.
+
+<div align="center">
+
+  ![image](https://github.com/user-attachments/assets/6f03d091-db15-4031-a006-898e9e748290)
+
+  **Figure 6:** Trends in movies over time
+  
+</div>
+
+#### 4.2.4. Movie Ticket Pricing
+
+For customers, watching movies is a common leisure activity, so their spending on tickets remains relatively low, typically ranging from $4 to $10. Actual ticket prices are even lower, from $2 to $7. Marketing strategies—especially those related to pricing and promotions—must consider customer price sensitivity. The goal is to determine an optimal price point that attracts customers while ensuring revenue and profit targets are met.
+
+<div align="center">
+
+  ![decrease 13% (2)](https://github.com/user-attachments/assets/0ca940d3-20b0-4c53-87cf-42e3e26e6bfe)
+
+  **Figure 7:** Original_price & Final_price Distribution
+  
+</div>
+
+#### 4.2.5. Promotional Programs
+
+<table>
+  <tr>
+    <td width="40%">
+      
+Over the past four years, 60% of moviegoers have come from promotional campaigns. Before 2022, the ratio of customers who purchased discounted vs. non-discounted tickets was relatively balanced. However, after the pandemic, the company intensified promotions to encourage customers to return to theaters.
+
+Among all promotional strategies, direct discounts have been the most popular. This is likely because they apply instantly to ticket prices without requiring extra steps like redeeming "reward points" or collecting "vouchers." Since most customers only watch movies once or twice a month, loyalty programs and voucher hunting—common in daily consumer spending—may not be as effective.
+
+In 2022, the direct discount strategy successfully brought back a significant number of customers post-pandemic. This approach should be considered for future marketing efforts.
+    </td>
+    <td width="60%">
+      <div align="center">
+        ![decrease 13% (3)](https://github.com/user-attachments/assets/9eaa332b-818d-486a-9c51-47128971ebd2)
+        **Figure 8:** Analysis of Promotional Programs
+      </div>
+    </td>
+  </tr>
+</table>
+
+#### 4.2.6. Payment Methods
+
+Over the past four years, the primary payment methods have been bank accounts (31%) and money in app (48%). Before 2022, these two methods were nearly equal in popularity. However, over time, customers have increasingly shifted towards in-app payments.
+
+This shift could be a positive sign, as it reduces reliance on third-party partners. However, it may also be due to frequent errors in bank account transactions, prompting customers to switch payment methods (see section …).
+
+Since payment is the final stage of the movie ticket booking journey, any issues at this stage can result in lost revenue and potentially losing the customer altogether. Addressing payment-related problems is crucial to ensuring a seamless booking experience.
+
+<div align="center">
+
+  ![decrease 13% (4)](https://github.com/user-attachments/assets/ce9e7b05-eaae-46e6-b93b-e1b245bb6a24)
+
+  **Figure 9:** Analysis of Payment Methods
+  
+</div>
+
+#### 4.3.1. Customer Ticket Booking Experience
+
+<table>
+  <tr>
+    <td width="65%">
+      
+Over the past four years, the cinema has attracted 119,477 customers, but 19,166 customers (16%) have never successfully booked a ticket. Additionally, 13,701 customers (11%) have a 100% failure rate in booking and may have abandoned the brand entirely.
+    </td>
+    <td width="35%">
+      <div align="center">
+        ![image](https://github.com/user-attachments/assets/51179d18-5e59-47e6-84a3-bac340f82fd2)
+        **Figure 10:** Distribution of successful booking rates by n_customers
+      </div>
+    </td>
+  </tr>
+</table>
+
+The primary reasons for booking failures stem from external factors, including customer-related issues and payment partner errors. These issues have persisted for four years without significant improvement. In 2022, when the number of ticket bookings surged, the number of booking failures also increased, showing no signs of resolution.
+
+<div align="center">
+
+  ![decrease 13% (4)](https://github.com/user-attachments/assets/eeedf424-5916-4704-b211-71a51e820fb7)
+  
+  **Figure 11:** Analysis of customer booking errors
+
+</div>
+
+**Customer-Related Issues**
+
+Most errors originate from customers themselves, including:
+
+- Insufficient funds in the account.
+- Unverified accounts that do not meet payment requirements.
+- Incorrect password entry when logging in.
+- Expired payment sessions due to prolonged checkout time.
+
+These may be business rules set by the company, making them difficult to modify for customer convenience.
+
+**Payment Partner Issues**
+
+A significant number of booking failures result from banking partner errors, primarily failed transactions due to banks. To address this, the company should strengthen partnerships with banks to improve payment reliability, enhance the booking experience, and retain more customers.
+
+<div align="center">
+  
+  ![image](https://github.com/user-attachments/assets/df0b159b-d243-4ae8-85b2-84382e06fa33)
+  
+  **Figure 12:** Trends in n_tickets_fail across external errors by description
+
+</div>
