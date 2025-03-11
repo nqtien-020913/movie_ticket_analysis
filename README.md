@@ -35,8 +35,10 @@ During the analysis process, various terms have been defined to ensure consisten
 
 ### 3.1. Customer Persona
 
-- Khách hàng mục tiêu: Những khách hàng từ 26 - 35 tuổi. Đây là độ tuổi đi đã đi làm được 1 khoảng thời gian và bước vào giai đoạn ổn định của cuộc sống. Nhóm khách hàng này xem phim như một hoạt động giải trí cuối tuần hoặc cuối những ngày làm việc mệt mỏi.
-- Khách hàng tiềm năng: Nhóm khách hàng từ 18 - 25 tuổi. Đối với nhóm khách hàng này, hoạt động xem phim sẽ trở thành dịp hẹn hò hơn là hoạt động giải trí sau những ngày làm mệt mỏi.
+- **Target Customers:** individuals aged 26-35. This group has been in the workforce for some time and is entering a more stable phase of life. They view movie-watching as a form of weekend entertainment or a way to unwind after long workdays.
+- **Potential Customers:** Individuals aged 18-25. For this group, going to the movies is more of a social or dating activity rather than a way to relax after work.
+
+
 
 <table>
   <tr>
