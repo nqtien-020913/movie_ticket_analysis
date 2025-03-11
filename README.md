@@ -24,7 +24,7 @@ Movie ticket database as seen below consists of five tables: _ticket_history, cu
 
 ![image](https://github.com/user-attachments/assets/b74f7338-a181-4747-928f-43141b2119dc)
 
-Before starting the analysis, various quality control checks were conducted to ensure data integrity and to familiarize myself with the dataset. The Python code used for inspection and quality checks can be found here.
+Before starting the analysis, various quality control checks were conducted to ensure data integrity and to familiarize myself with the dataset. The Python code used for inspection and quality checks can be found [here](https://github.com/nqtien-020913/movie_ticket_analysis/blob/e3081960cfc9c3ebd457a13e96187d06de10b500/movie_ticket_analyzing.ipynb).
 
 ### 2.2. Data Metrics and Definitions
 
