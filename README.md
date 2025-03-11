@@ -160,7 +160,7 @@ Customers do not exhibit strong preferences for specific movie genres but tend t
 
 <div align="center">
 
-  ![image](https://github.com/user-attachments/assets/6f03d091-db15-4031-a006-898e9e748290)
+  ![image](https://github.com/user-attachments/assets/5647ca12-34ec-4a41-a779-9a4e1367b1ea)
 
   **Figure 6:** Trends in movies over time
   
@@ -215,6 +215,8 @@ Since payment is the final stage of the movie ticket booking journey, any issues
   
 </div>
 
+### 4.3. Customer Experience & Retention rate
+
 #### 4.3.1. Customer Ticket Booking Experience
 
 <table>
@@ -264,3 +266,77 @@ A significant number of booking failures result from banking partner errors, pri
   **Figure 12:** Trends in n_tickets_fail across external errors by description
 
 </div>
+
+#### 4.3.2. Customer Service Experience (Retention Analysis)
+
+The customer retention rate at cinemas is very low. In 2019 and 2022, no month had a retention rate exceeding 10%, with most months recording a rate below 5%. This is understandable when looking at the "new customer" column, which indicates that the company has focused its resources on acquiring new customers rather than retaining existing ones.
+
+A deeper analysis of the retention rate in 2022 reveals that the number of new customers acquired was 71,256, with 65% of them coming from promotional activities. However, only 13% of these customers returned for at least a second visit, while the retention rate for organically acquired customers (non-promotional) was 12%. This suggests that in 2022, the company prioritized rapid customer acquisition following the pandemic, rather than improving retention.
+
+<div align="center">
+
+  ![decrease 13% (5)](https://github.com/user-attachments/assets/62ef12d6-d7e1-4237-91d3-f35885c483a0)
+
+  **Figure 13:** Monthly Cohorts: User Retention 2019 and 2022
+
+</div>
+
+This leads to a negative consequence: some customers only came to watch movies during a promotional period but did not return due to poor service quality. Nearly 70,000 customers (see the “n_promotion” chart in Figure 15) participated in promotions over the past four years. However, 55,168 of them only watched movies during one promotion and never returned for a second visit (see the “Distribution of movie-watching days of customers participating in the promotion program” chart in Figure 15). Additionally, more than 5,000 remaining customers only visited when there was an ongoing promotion (see the “promotion_rate” chart in Figure 15). This results in a high CAC (Customer Acquisition Cost), while the lifetime value of a customer remains very low, which is a negative signal.
+
+<div align="center">
+
+  ![decrease 13% (6)](https://github.com/user-attachments/assets/97b3ecb3-9261-493d-a2f5-ec156780b32d)
+
+  **Figure 14:** Analysis of the return rate of customers participating in the promotion program
+  
+</div>
+
+## 5. Recommendations
+
+### 5.1. Target Customer Profile
+
+**Target Customers:** In the next phase, the company will focus on attracting moviegoers aged 26–35. These individuals have stable jobs and consider watching movies as a common leisure activity after long working hours. Additionally, the 18–25 age group will be considered for long-term strategies, as they will become the primary workforce and consumer base in the future.
+
+Most customers book tickets via mobile, particularly on iOS devices. However, an increasing number of customers are also shifting to website bookings. Customers are primarily drawn to viral movies, blockbusters, and films that receive extensive social media coverage. However, they are only willing to spend between $3–$7 per ticket. Promotional offers are highly attractive to them, with direct discounts being their preferred type due to their convenience.
+
+When purchasing tickets online, these customers primarily use bank account payments and in-app wallet payments. Therefore, the company must ensure both payment methods operate smoothly and minimize potential errors.
+
+### 5.2. Product Development (Booking Platform)
+
+Currently, the biggest issue with the booking platform is the payment process, which is the final and most critical step in the online ticket booking journey. Nearly 75% of failed bookings are caused by third-party banking errors, with bank transaction failures being the most common issue. To resolve this, the company should:
+- Collaborate with banks to identify and fix these errors.
+- Encourage users to switch to in-app wallet payments, which provides long-term benefits and allows the company to have full control over the payment process, reducing reliance on third-party services.
+
+### 5.3. Service Quality Improvement
+
+Retention analysis indicates that the company currently lacks a customer retention strategy, which can have long-term negative consequences. The core factor in retaining moviegoers is service quality, including customer service, film presentation quality, and overall theater experience. The company should implement strategies to enhance the end-to-end movie-watching experience, ultimately increasing customer retention and Customer Lifetime Value (CLV).
+
+### 5.4. Marketing Strategy
+
+Data analysis shows that direct discounts are the most preferred promotional method among customers. They are fast and convenient, making them well-suited for movie ticket purchases. Since customers typically watch movies infrequently, other promotional strategies like voucher hunting or reward point accumulation—which are more effective for daily consumption—may not be ideal. The marketing team should leverage the direct discount model when planning future campaigns.
+
+## 6. Constraints & Assumptions
+
+### 6.1. Constraints
+The dataset covers the period from January 2019 to December 2022. As a result, customer behavior trends during these years were significantly impacted by COVID-19, making it difficult to establish accurate patterns. The pandemic began in 2019, reached its peak in 2020 and 2021, and only started recovering in 2022. Since movie-watching is an on-time activity, this period experienced considerable disruption (See **Figure 1**).
+
+<div align="center">
+
+  ![image](https://github.com/user-attachments/assets/55f80fc4-730f-4861-8e76-954bc662e533)
+
+  **Figure 1:** Monthly trend of n_tickets
+  
+</div>
+
+### 6.2. Assumptions
+- The COVID-19 pandemic primarily impacted long-term trends, such as annual and monthly behavior shifts. However, daily and hourly customer behavior patterns were less affected by the pandemic.
+- Unverified data is assumed to be due to customers not providing complete information, causing the system to automatically assign default values.
+
+
+
+
+
+
+
+
+
