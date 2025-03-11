@@ -1,4 +1,4 @@
-# Movie Ticket Analysis
+# 📈Movie Ticket Analysis
 
 ## 1. Project Background
 
@@ -11,6 +11,9 @@ Assume you are in the role of **an Analyst** in the **product development depart
 - Analyze and identify the target customer profile.
 - Examine the key factors influencing the customer’s ticket booking journey.
 - Propose solutions to enhance the cinema chain's revenue.
+
+> 📊The movie_ticket_db.zip can be downloaded [here](https://drive.google.com/file/d/11RFDyU_SyryhIIzmrRW_5r52dQ0VP3P_/view?usp=drive_link).
+> 📊Targeted Python code snippets for various business questions can be found [here](https://github.com/nqtien-020913/movie_ticket_analysis/blob/e3081960cfc9c3ebd457a13e96187d06de10b500/movie_ticket_analyzing.ipynb).
 
 ## 2. Data Structure and Related Metrics
 
@@ -29,10 +32,10 @@ During the analysis process, various terms have been defined to ensure consisten
 | Cột 1 | Cột 2 |
 |-------|-------|
 | n_tickets | ... |
-| n_customers | ... |
 | n_tickets_success | ... |
+| n_tickets_fail | ... |
 | n_customers | ... |
-| n_tickets | ... |
+| n_days | ... |
 | n_customers | ... |
 
 ## 3. Executive Summary
